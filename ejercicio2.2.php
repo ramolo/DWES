@@ -6,7 +6,7 @@
 <body>
 	
 <?php
-	echo "<h3>VAMOS A REALIZAR UN FORMULARIO DE PRUEBA</h3></br>
+	echo 	"<ins><h3>VAMOS A REALIZAR UN FORMULARIO DE PRUEBA</h3></ins></br>
 			<form>
 			Introduzca su nombre de usuario ó email: &nbsp&nbsp 
 			<input type='text' name='nombre' value=''> </br></br></br>
@@ -34,11 +34,12 @@
 			<input type='file' name='insertarAdjunto'</form></br></br></br>
 
 			<strong>Si está seguro de enviar la foto seleccionada, confirme por favor </strong>&nbsp&nbsp 
-			<input type='image' name='insertarImagen' value='Enviar la imagen'</form></br></br></br>
+			<input type='image' name='insertarImagen' value='Enviar la imagen'></br></br></br>
 
 			
 			&nbsp&nbsp  &nbsp&nbsp  &nbsp&nbsp  &nbsp&nbsp  &nbsp&nbsp  &nbsp&nbsp  &nbsp&nbsp  &nbsp&nbsp 
-			<input type='button' name='guardar' value='<strong>Guardar cambios y enviar formulario</strong>'(si la página contiene javascript, estos botones se pueden programar para realizar cualquier tarea compleja cuando se pulsa sobre ellos)</form>";
+			<input type='button' name='guardar' value='Guardar cambios y enviar formulario'>(si la página contiene javascript, estos botones se pueden programar para realizar cualquier tarea compleja cuando se pulsa sobre ellos)
+			</form>";
 	
 		echo "<form><input type='hidden' name='urlPrevia' value='articulo/primero.html'</form>"; //?¿?¿campo oculto para añadir info oculta en el formulario...?
 
