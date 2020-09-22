@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+	<h3>CALCULADORA</h3></br></br>
+
+
+	<form action = "/codcalc.php" method = "post">
+
+	<fieldset>
+			<legend><em>Calculatron</em></legend></br></br>
+
+		Número 1 &nbsp &nbsp &nbsp<input type ="text" name="num1"></br></br>
+		
+		<label for="operador">Operación</label>&nbsp &nbsp &nbsp
+		<select id="operador" name="operador">
+			<option value="+" name="simSuma">+</option>
+			<option value="-" name="simResta">-</option>
+			<option value="*" name="simProducto">*</option>
+			<option value="/" name="simDivision">/<option>
+			<option value="%" name="simModulo">%</option>
+		</select>
+		
+		</br></br>
+
+		Número 2 &nbsp &nbsp &nbsp<input type ="text" name="num2"></br></br></br>
+
+		<input type="submit" name="calcular" value="calcular"></br></br>
+
+		<input type="reset" name="reset" value="reset">
+
+	</fieldset>
+
+	</form>
+
+</body>
+</html>
